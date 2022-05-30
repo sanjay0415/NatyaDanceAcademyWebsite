@@ -1,0 +1,105 @@
+body{
+    background-image: url('/static/dance bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1485px; */
+    opacity: 0.9;
+}
+
+/* for header part -----------------------------------------------------------------------*/
+#header {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+#imgHeader {
+    height: 82px;
+    /* filter: invert(1); */ 
+    border-radius: 54px;
+}
+
+#paraHeader1{
+    margin: 31px 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+/* for navigation part ------------------------------------------------------------------*/
+#navbar{
+    /* border: 2px solid red; */
+    margin: 14px 29px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 42px 53px;
+    font-size: 30px;
+    color: wheat;
+    background-color: #0093bf;
+    border-radius: 12px;
+    border: 3px solid #d3f7f4;
+}
+
+
+/* for contact part ---------------------------------------------------------------------*/
+#contact{
+    border: 2px solid red;
+    margin: 5px 73px;
+    height: 70vh;
+    background-image: url('/static/contact bg 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+
+#formsContact{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+   
+    margin: 47px 415px;
+}
+
+input{
+    margin: 6px 14px;
+    height: 22px;
+    border: 3px solid red;
+    font-size: 15px;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+#btn{
+    margin: 35px 205px;
+}
+
+/* for footer part -----------------------------------------------------------------------*/
+
+#footer{
+    /* border: 2px solid red; */
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: wheat;
+}
+
+
+
+
+/* hovering effects goes here--------------------------------------------------------------*/
+#navbar a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+
+

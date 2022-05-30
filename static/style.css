@@ -1,0 +1,177 @@
+
+body{
+    background-image: url('/static/dance bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1485px;
+    opacity: 0.9;
+}
+
+/* for header part ------------------------------------------------------------------------*/
+#header {
+    /* border: 2px solid red; */
+    display: flex;
+    color: wheat;
+}
+
+#imgHeader {
+    height: 82px;
+    /* filter: invert(1); */ 
+    border-radius: 54px;
+}
+
+#paraHeader1{
+    margin: 31px 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#paraHeader2{
+    margin: 32px 267px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #9aaf27;
+    text-shadow: 9px -3px 20px #9aaf27;
+    box-shadow: -5px 4px 20px 16px #e7ee82;
+}
+
+
+/* for navigation part ---------------------------------------------------------------------*/
+#navbar{
+    /* border: 2px solid red; */
+    margin: 8px 104px;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin: 42px 53px;
+    font-size: 30px;
+    color: wheat;
+    background-color: #0093bf;
+    border-radius: 12px;
+    border: 3px solid #d3f7f4;
+}
+
+
+
+/* for Intro SECTION part 1----------------------------------------------------------------*/
+#introSection{
+    border: 2px solid  #710778;
+    height: 363px;
+    margin: 58px 3px;
+    background-image: url('/static/dance background.jpg');
+    background-size: 1340px 365px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    color: wheat;
+    box-shadow: -5px 1px 20px 20px violet;
+}
+
+#para1{
+    margin: 126px 371px;
+    color: #f5ffbd;
+    font-size: 35px;
+    text-align: right;
+   
+}
+#para2{
+    margin: -116px 10px;
+    color: #ffc0c0;
+    font-size: 40px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+/* for Intro SECTION part 1-----------------------------------------------------------------*/
+#contentSection{
+    /* border: 2px solid red; */
+    margin: 68px 75px;
+    height: 360px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #cbfffa;
+}
+
+#contentBox{
+    /* border: 2px solid red; */
+    height: 262px;  
+    margin: 2px 10px;
+    display: flex;
+}
+
+.boxes{
+    /* border: 2px solid red; */
+    height: 212px;
+    width: 341px;
+    margin: 22px 20px;
+    display: flex;
+}
+
+.imgBoxes{
+    height: 150px;
+    margin: 23px 6px;
+    border-left-style: dotted;
+    border-top: dotted;
+    border-right-style: dotted;
+    border-bottom: dotted;
+}
+
+.paraBoxes{
+    font-size: 20px;
+    margin: 25px 3px;
+    color: wheat;
+}
+
+
+/* for Footer------------------------------------------------------------------------------*/
+#footer{
+    /* border: 2px solid black; */
+    height: 380px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    color: wheat;
+}
+
+#footerBox{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 30px 311px;
+    height: 137px;
+}
+
+
+.imgFooter{
+    margin: 8px 24px;
+    border-radius: 35px;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+}
+
+
+/* hovering effects goes here--------------------------------------------------------------*/
+#navbar a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+
+.imgBoxes:hover{
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    filter: invert(1);
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    style 
+      include ../static/styleContact.css
+  </head>
+  <body>
+    <!-- for header part ------------------------------------------------------------>
+    <header id="header">
+      <img id="imgHeader" src="/static/DANCE LOGO.jpg" alt="" />
+      <p id="paraHeader1">NDA</p>
+
+      <!-- for navigation part ------------------------------------------------------------>
+
+      <nav id="navbar">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Class Info</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- for Contact part ------------------------------------------------------------>
+
+    <section id="contact">
+      <form action="/contact" method="post" id="formsContact">
+        <input type="text" name="name" placeholder="Enter your name" />
+        <input type="text" name="age" placeholder="Enter your age" />
+        <input type="text" name="gender" placeholder="Enter your gender" />
+        <input type="email" name="email" placeholder="Enter your email" />
+        <input type="number" name="phoneNumber" placeholder="Enter your phone number">
+        <input type="text" name="address" placeholder="Enter your address" />
+        <input type="text" name="concern" placeholder="Enter your concern" />
+        <div id="btn">
+            <input type="submit" value="Submit Now">
+        </div>
+      </form>
+    </section>
+
+    <!-- for Contact part ------------------------------------------------------------>
+
+    <footer id="footer">
+        <p>© Copyright, NDA NATYA DANCE ACADEMY</p>
+    </footer>
+  </body>
+</html>
